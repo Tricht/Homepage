@@ -1,26 +1,4 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>El Embudo - Web Developer </title>
-  <meta name="description" content="El Embudo, Felix Wolter - Web Developer">
-  <meta name="author" content="Felix Wolter">
-  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-
-</head>
-
-<div class="container">
-  <nav id="navbar">
-    <ul id="nav-links">
-      <li><a href="#welcome-section">ME</a></li>
-      <li><a href="#projects">PROJECTS</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-    </ul>
-  </nav>
-
+<%- include ('partials/header') %>
   <section id="welcome-section">
     <h1>El Embudo</h1>
     <h3>Web Developer</h3>
@@ -31,7 +9,9 @@
     <div id="tiles">
       <div class="project-tile">
         <a href="https://codepen.io/Tricht/pen/ZEYvaQJ">
-          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80" alt="Projekt 1">
+          <img
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80"
+            alt="Projekt 1">
 
           <h4>Tribute Page</h4>
         </a>
@@ -39,7 +19,9 @@
 
       <div class="project-tile">
         <a href="https://codepen.io/Tricht/details/OJVVXrX">
-          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80" alt="Projekt 2">
+          <img
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80"
+            alt="Projekt 2">
 
           <h4>Survey Form</h4>
         </a>
@@ -47,7 +29,9 @@
 
       <div class="project-tile">
         <a href="https://codepen.io/Tricht/pen/GRJGgrW">
-          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80" alt="Projekt 3">
+          <img
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80"
+            alt="Projekt 3">
 
           <h4>Product Landing Page</h4>
         </a>
@@ -55,7 +39,9 @@
 
       <div class="project-tile">
         <a href="https://codepen.io/Tricht/details/NWqzGMd">
-          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80" alt="Projekt 4">
+          <img
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80"
+            alt="Projekt 4">
 
           <h4>Documentaion</h4>
         </a>
@@ -70,4 +56,4 @@
       <a class="prof-link" href="https://github.com/Tricht" target="_blank">GitHub Profile</a>
     </div>
   </section>
-</div>
+  <%- include ('partials/footer') %>
